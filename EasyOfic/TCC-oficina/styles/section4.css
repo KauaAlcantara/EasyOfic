@@ -1,0 +1,94 @@
+.conteudo__section4{
+  position: relative;
+  bottom: 15em;
+  margin: 0px 2rem 0px 2rem;
+}
+
+.Depoimentos{
+  font-size: 30px;
+  font-family: var(--montserrat);
+  color: var(--cinza-escuro);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.linha__azul4{
+  position: absolute;
+  height: 3px;
+  width: 4.375rem;
+  background: var(--azul--real);
+  margin-top: 0.9375rem;
+  left: 47.5%;
+}
+
+.Depoimentos__caixa{
+  display: flex;
+  margin-top: 8rem;
+  gap: 3.125rem;
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+}
+
+.poligono{
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  background-color: var(--cor--branca);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 18.75rem;
+  font-family: Arial, sans-serif;
+  height: 11.25rem;
+  padding: 0.625rem 1.25rem 1.25rem 1.25rem;
+  line-height: 1.4em;
+}
+
+.poligono p{
+  color: var(--cinza-medio);
+}
+
+.imagem__depo{
+  width: 2.5rem;
+}
+
+.nome__depo{
+  font-size: 18px;
+  font-family: var(--inter-sans);
+  font-weight: bold;
+}
+
+.swiper{
+  position: relative;
+  bottom: -5rem;
+}
+
+.swiper p {
+  color: var(--cinza-escuro);
+  font-family: var(--montserrat);
+}
+.swiper-slide{
+  display: flex;
+  border: 1px solid var(--cor--cinza);
+  border-radius: 8px;
+  padding: 10px;
+  line-height: 1.2rem;
+  flex-wrap: wrap;
+  cursor: grab;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .linha__azul4{
+    visibility: hidden;
+  }
+
+  .nome__depo{
+    font-size: 16px;
+  }
+
+  .nome__depo + p {
+    font-size: 13px;
+  }
+}

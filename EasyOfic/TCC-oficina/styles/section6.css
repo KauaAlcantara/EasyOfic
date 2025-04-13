@@ -1,0 +1,72 @@
+.conteudo__section6{
+  position: relative;
+  top: 8em;
+}
+
+.conteudo__perguntas{
+  font-size: 30px;
+  color: var(--cinza-escuro);
+  font-weight: 800;
+  font-family: var(--inter-sans);
+  text-align: center;
+}
+
+.conteudo__paragrafo__perguntas{
+  font-family: var(--montserrat);
+  color: var(--cinza-medio);
+  font-size: 1.25rem;
+  margin-top: 3.125rem;
+  text-align: center;
+  margin-bottom: 3.125rem;
+}
+
+.conteudo__section6 details summary{
+  background-color: var(--cor--branca);
+  border: 1px solid rgba(0, 0, 0, 0.125);;
+  padding: 1.5%;
+  color: #007bff;
+  font-family: var(--inter-sans);
+  font-weight: bolder;
+  line-height: 1.5em;
+  border-radius: 0.25rem;
+}
+
+details{
+  cursor: pointer;
+}
+
+.caixa__faq{
+  display: block;
+  margin-right: 4.375rem;
+  margin-left: 9.375rem;
+}
+
+.faq__paragrafo{
+  padding: 1.25rem;
+  color: var(--cinza-medio);
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: var(--inter-sans);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.pro,.start,.empresa{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .caixa__faq{
+    position: relative;
+    right: 9.5rem;
+    font-size: 15px;
+  }
+  summary{
+    width: 40rem;
+  }
+
+  .faq__paragrafo{
+    width: 25rem;
+    font-size: 14px;
+  }
+}

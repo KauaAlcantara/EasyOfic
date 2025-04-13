@@ -1,0 +1,136 @@
+.conteudo__section8{
+  background-color: var(--azul--real);
+  height: 18.75rem;
+  position: relative;
+  bottom: -20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imagem__carta{
+  width: 1.875rem;
+}
+
+.whatsapp{
+  width: 1.75rem;
+}
+
+.facebook{
+  width: 1.875rem;
+}
+
+.instagram{
+  width: 2.5875rem;
+}
+
+.titulo{
+  display: flex;
+  font-family: var(--montserrat);
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 2.5rem;
+  color: var(--cor--branca);
+  align-items: center;
+  gap: 0.3125rem;
+  font-weight: 500;
+}
+
+.paragrafo__redes{
+  display: flex;
+  color: var(--cor--branca);
+  font-family: var(--montserrat);
+  font-size: 18px;
+  line-height: 2rem;
+  text-align: center;
+  margin-top: 0.625rem;
+  margin-left: 1.25rem;
+}
+
+.logo__titulo{
+  height: 5rem;
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--cor--branca);
+  font-family: var(--montserrat);
+  gap: 3.125rem;
+  margin-top: 2.5rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.contato__redes{
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+}
+
+.conteudo__redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--cor--branca);
+  font-family: var(--montserrat);
+  gap: 3.125rem;
+  margin-top: 2.5rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.redes__sociais{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.redes__sociais a{
+  display: flex;
+  text-decoration: none;
+  color: var(--cor--branca);
+  align-items: center;
+  gap: 0.625rem;
+  justify-content: center;
+  font-family: var(--montserrat);
+  font-weight: 400;
+}
+
+.redes__sociais a:hover{
+  color: var(--cor-preta);
+}
+
+@media screen and (max-width: 1024px) {
+  .titulo, .logo__titulo, .paragrafo__redes{
+    visibility: hidden;
+  }
+
+  .contato > h2{
+    position: relative;
+    right: 8rem;
+  }
+
+  .contato__redes{
+    font-size: 17px;
+    position: relative;
+    right: 13rem;
+    bottom: 2rem
+  }
+
+  .redes__sociais{
+    position: relative;
+    right: 29rem;
+    ;
+  }
+  .redes__sociais > a{
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .conteudo__footer{
+    visibility: hidden;
+  }
+}

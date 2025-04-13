@@ -1,0 +1,68 @@
+.conteudo__header {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-preta);
+  height: 5em;
+}
+
+.conteudo__cabecalho {
+  display: flex;
+  gap: 1.875em;
+  padding-left: 40rem;
+  align-items: center;
+}
+.image__logo{
+  width: 3.125em;
+}
+
+.conteudo__logotipo{
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+  padding-right: 9.375em;
+  padding-left: 9.375em;
+}
+
+.nome__ofic{
+  font-family: var(--inter-sans);
+  font-size: 30px;
+  color: var(--cor-roxo);
+}
+
+.conteudo__cabecalho a {
+  text-decoration: none;
+  color: var(--cor--branca);
+  font-family: var(--montserrat);
+  font-weight: 500;
+}
+
+.login{
+  padding-left: 2.5em;
+}
+
+.avatar{
+  width: 1.875em;
+  position: relative;
+  right: 1.25em;
+}
+
+.links__footer:hover {
+  color: var(--cor--cinza);
+}
+
+@media screen and (max-width: 1024px) {
+  .conteudo__logotipo{
+    position: relative;
+    right: 9rem;
+  }
+
+  .nome__ofic{
+    visibility: hidden;
+  }
+
+  .conteudo__cabecalho{
+    position: relative;
+    right: 58rem;
+  }
+  
+}

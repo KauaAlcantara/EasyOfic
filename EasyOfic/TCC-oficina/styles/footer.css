@@ -1,0 +1,9 @@
+.conteudo__footer{
+  position: relative;
+  top: 20rem;
+  background-color: var(--azul--real);
+  text-align: center;
+  color: var(--cor--branca);
+  font-family: var(--montserrat);
+  height: 1.5em;
+}

@@ -1,0 +1,9 @@
+{
+    "require": {
+        "endroid/qr-code": "^6.0",
+        "gerencianet/gerencianet-sdk-php": "^5.1",
+        "eduardokum/laravel-boleto": "^0.11.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

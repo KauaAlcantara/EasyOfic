@@ -1,0 +1,104 @@
+.conteudo__section5{
+  position: relative;
+  bottom: 2rem;
+  margin: 0rem 45rem;
+}
+
+.conteudo__planos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+#titulo__planos__principal{
+  display: flex;
+  justify-content: center;
+  font-family: var(--montserrat);
+  white-space: nowrap;
+  position: relative;
+  bottom: 3.75rem;
+  font-size: 30px;
+  color: var(--cinza-escuro);
+  font-weight: 700;
+}
+
+.azul__linha{
+  height: 3px;
+  width: 5.625rem;
+  background: var(--azul--real);
+  position: absolute;
+  bottom: 39rem;
+  left: 1rem;
+}
+
+.titulo__planos{
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  font-size: 30px;
+  font-family: var(--montserrat);
+  color: var(--cor--branca);
+  font-weight: 700;
+}
+
+.cor__planos{
+  height: 6.25rem;
+  background-color: var(--azul--real);
+  width: 25em;
+}
+
+.planos__paragrafos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  font-size: 1rem;
+  font-family: var(--inter-sans);
+  color: var(--cinza-medio);
+  line-height: 1.67rem;
+  font-weight: 400;
+}
+
+#planos{
+  background-color: #d0d0d0;
+  border-radius: 10px;
+}
+
+#risco{
+  text-decoration: line-through;
+}
+
+#bottao__assinar{
+  background-color: var(--azul--real);
+  margin-top: 1.25rem;
+  text-decoration: none;
+  font-family: var(--inter-sans);
+  color: var(--cor--branca);
+  font-weight: 600;
+  padding: 0.625rem;
+  width: 6.25rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: 750ms;
+}
+
+#bottao__assinar:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .start{
+    margin-right: 8.2rem;
+  }
+
+  .pro{
+    visibility: hidden;
+  }
+
+  .empresa{
+    visibility: hidden;
+  }
+}
